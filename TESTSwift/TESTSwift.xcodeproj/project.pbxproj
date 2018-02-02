@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		283CFCA520249C2F00D3527B /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CFCA320249C2F00D3527B /* RequestHandler.swift */; };
 		283CFCA620249C2F00D3527B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CFCA420249C2F00D3527B /* Request.swift */; };
+		283CFCA82024A18E00D3527B /* JSONDecoderExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CFCA72024A18E00D3527B /* JSONDecoderExtesions.swift */; };
 		5339DBAB200A705A00398FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339DBAA200A705A00398FE8 /* AppDelegate.swift */; };
 		5339DBAD200A705A00398FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5339DBAC200A705A00398FE8 /* ViewController.swift */; };
 		5339DBB2200A705A00398FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5339DBB1200A705A00398FE8 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* Begin PBXFileReference section */
 		283CFCA320249C2F00D3527B /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		283CFCA420249C2F00D3527B /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		283CFCA72024A18E00D3527B /* JSONDecoderExtesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderExtesions.swift; sourceTree = "<group>"; };
 		5339DBA7200A705A00398FE8 /* TESTSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5339DBAA200A705A00398FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5339DBAC200A705A00398FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				283CFCA420249C2F00D3527B /* Request.swift */,
 				283CFCA320249C2F00D3527B /* RequestHandler.swift */,
+				283CFCA72024A18E00D3527B /* JSONDecoderExtesions.swift */,
 			);
 			path = SFRequest;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				5339DBAD200A705A00398FE8 /* ViewController.swift in Sources */,
 				5339DBAB200A705A00398FE8 /* AppDelegate.swift in Sources */,
+				283CFCA82024A18E00D3527B /* JSONDecoderExtesions.swift in Sources */,
 				283CFCA620249C2F00D3527B /* Request.swift in Sources */,
 				283CFCA520249C2F00D3527B /* RequestHandler.swift in Sources */,
 			);
